@@ -9,7 +9,7 @@ describe('<Words />', () => {
     expect(screen.getByText(/Words for Nerds/)).toBeInTheDocument();
     expect(screen.getAllByRole('button')).toBeDefined();
     expect(screen.queryByText(/START/)).toBeNull();
-    await waitFor(() => { expect(screen.getByText(/DONE/)).toBeInTheDocument() });
+    await waitFor(() => { expect(screen.getByText(/END GAME/)).toBeInTheDocument() });
   });
 
   it('should end game and hide WordBuilder and WordList', async () => {
@@ -17,9 +17,9 @@ describe('<Words />', () => {
     // precondition - the component should generate a set of letters
     // so the derived game mode state is 'game'
     expect(screen.queryByText(/START/)).toBeNull();
-    expect(screen.getByText(/DONE/)).toBeInTheDocument();
+    expect(screen.getByText(/END GAME/)).toBeInTheDocument();
     // find the button to "end the game"
-    const doneButton = screen.getByText(/DONE/);
+    const doneButton = screen.getByText(/END GAME/);
 
     // click it
     userEvent.click(doneButton);
@@ -34,7 +34,7 @@ describe('<Words />', () => {
   it('should start game and show WordBuilder and WordList again', async () => {
     render(<Words />);
     // find the button to "end the game"
-    const doneButton = screen.getByText(/DONE/);
+    const doneButton = screen.getByText(/END GAME/);
 
     // click it to end the game
     userEvent.click(doneButton);

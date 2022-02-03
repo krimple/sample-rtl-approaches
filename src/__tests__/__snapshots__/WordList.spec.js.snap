@@ -8,31 +8,25 @@ exports[`<WordList /> matches snapshot with 3 words 1`] = `
     <div
       data-testid="0"
     >
-      <span
-        class="wordlist-bullet"
-      >
-        *
-      </span>
+      <i
+        class="bi bi-plus-lg"
+      />
       Foo
     </div>
     <div
       data-testid="1"
     >
-      <span
-        class="wordlist-bullet"
-      >
-        *
-      </span>
+      <i
+        class="bi bi-plus-lg"
+      />
       Bar
     </div>
     <div
       data-testid="2"
     >
-      <span
-        class="wordlist-bullet"
-      >
-        *
-      </span>
+      <i
+        class="bi bi-plus-lg"
+      />
       Baz
     </div>
   </div>

@@ -3,22 +3,25 @@
 exports[`<LetterBar /> matches snapshot with A and C used letters 1`] = `
 Array [
   <button
-    class="btn letter"
+    class="col-4 col-sm-2 col-md-1 btn letter"
     data-testid="letter-button"
     disabled=""
+    role="button"
   >
     A
   </button>,
   <button
-    class="btn letter"
+    class="col-4 col-sm-2 col-md-1 btn letter"
     data-testid="letter-button"
+    role="button"
   >
     B
   </button>,
   <button
-    class="btn letter"
+    class="col-4 col-sm-2 col-md-1 btn letter"
     data-testid="letter-button"
     disabled=""
+    role="button"
   >
     C
   </button>,
@@ -28,20 +31,23 @@ Array [
 exports[`<LetterBar /> matches snapshot with one 0 used letters 1`] = `
 Array [
   <button
-    class="btn letter"
+    class="col-4 col-sm-2 col-md-1 btn letter"
     data-testid="letter-button"
+    role="button"
   >
     A
   </button>,
   <button
-    class="btn letter"
+    class="col-4 col-sm-2 col-md-1 btn letter"
     data-testid="letter-button"
+    role="button"
   >
     B
   </button>,
   <button
-    class="btn letter"
+    class="col-4 col-sm-2 col-md-1 btn letter"
     data-testid="letter-button"
+    role="button"
   >
     C
   </button>,

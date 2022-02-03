@@ -3,9 +3,10 @@
 exports[`<Letter /> matches disabled snapshot 1`] = `
 <DocumentFragment>
   <button
-    class="btn letter"
+    class="col-4 col-sm-2 col-md-1 btn letter"
     data-testid="letter-button"
     disabled=""
+    role="button"
   >
     C
   </button>
@@ -15,8 +16,9 @@ exports[`<Letter /> matches disabled snapshot 1`] = `
 exports[`<Letter /> renders a letter C as an enabled, unused letter 1`] = `
 <div>
   <button
-    class="btn letter"
+    class="col-4 col-sm-2 col-md-1 btn letter"
     data-testid="letter-button"
+    role="button"
   >
     C
   </button>
@@ -26,9 +28,10 @@ exports[`<Letter /> renders a letter C as an enabled, unused letter 1`] = `
 exports[`<Letter /> renders a letter C as disabled, unused letter 1`] = `
 <div>
   <button
-    class="btn letter"
+    class="col-4 col-sm-2 col-md-1 btn letter"
     data-testid="letter-button"
     disabled=""
+    role="button"
   >
     C
   </button>
