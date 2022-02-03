@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WordList /> matches snapshot with 3 words 1`] = `
+<DocumentFragment>
+  <div
+    class="wordContainer wordList"
+  >
+    <div
+      data-testid="0"
+    >
+      <span
+        class="wordlist-bullet"
+      >
+        *
+      </span>
+      Foo
+    </div>
+    <div
+      data-testid="1"
+    >
+      <span
+        class="wordlist-bullet"
+      >
+        *
+      </span>
+      Bar
+    </div>
+    <div
+      data-testid="2"
+    >
+      <span
+        class="wordlist-bullet"
+      >
+        *
+      </span>
+      Baz
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<WordList /> matches snapshot with empty wordlist 1`] = `
+<DocumentFragment>
+  <div
+    class="wordContainer wordList"
+  />
+</DocumentFragment>
+`;

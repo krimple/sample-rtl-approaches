@@ -1,0 +1,18 @@
+.word {
+    color: orange;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    font-size: 50px;
+    background-color: blue;
+    margin-bottom: 10px;
+    height: 80px;
+    bottom: 10px;
+    text-align: left;
+}
+
+button {
+    margin: 5px;
+}

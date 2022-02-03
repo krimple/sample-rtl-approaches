@@ -1,0 +1,26 @@
+.wordContainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: initial;
+    justify-content: left;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    flex-grow: 0; /* do not grow   - initial value: 0 */
+    flex-shrink: 0; /* do not shrink - initial value: 1 */
+    flex-basis: 200px;
+}
+
+.wordList {
+    text-align: left;
+    color: orange;
+    height: 200px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    margin: 25px;
+    padding: 10px;
+    font-size: 25px;
+}
+

@@ -1,0 +1,22 @@
+.status {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.status .statusValue {
+    color: blue;
+    background-color: orange;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.status .scoreValue {
+    color: blue;
+    background-color: yellow;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid red;
+}

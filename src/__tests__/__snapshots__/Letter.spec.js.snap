@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Letter /> matches disabled snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn letter"
+    data-testid="letter-button"
+    disabled=""
+  >
+    C
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Letter /> renders a letter C as an enabled, unused letter 1`] = `
+<div>
+  <button
+    class="btn letter"
+    data-testid="letter-button"
+  >
+    C
+  </button>
+</div>
+`;
+
+exports[`<Letter /> renders a letter C as disabled, unused letter 1`] = `
+<div>
+  <button
+    class="btn letter"
+    data-testid="letter-button"
+    disabled=""
+  >
+    C
+  </button>
+</div>
+`;

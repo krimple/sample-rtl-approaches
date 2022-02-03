@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LetterBar /> matches snapshot with A and C used letters 1`] = `
+Array [
+  <button
+    class="btn letter"
+    data-testid="letter-button"
+    disabled=""
+  >
+    A
+  </button>,
+  <button
+    class="btn letter"
+    data-testid="letter-button"
+  >
+    B
+  </button>,
+  <button
+    class="btn letter"
+    data-testid="letter-button"
+    disabled=""
+  >
+    C
+  </button>,
+]
+`;
+
+exports[`<LetterBar /> matches snapshot with one 0 used letters 1`] = `
+Array [
+  <button
+    class="btn letter"
+    data-testid="letter-button"
+  >
+    A
+  </button>,
+  <button
+    class="btn letter"
+    data-testid="letter-button"
+  >
+    B
+  </button>,
+  <button
+    class="btn letter"
+    data-testid="letter-button"
+  >
+    C
+  </button>,
+]
+`;
